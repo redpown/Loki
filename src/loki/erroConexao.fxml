@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="144.0" prefWidth="164.0" xmlns:fx="http://javafx.com/fxml/1" fx:controller="loki.ErroConexaoController">
+       <children>
+      <Button id="Show_log_file" fx:id="show_log_file" layoutX="52.0" layoutY="85.0" mnemonicParsing="false" text="Button" />
+      <Label layoutX="32.0" layoutY="30.0" text="Erro ao Conectar" />
+      <Label layoutX="51.0" layoutY="56.0" text="Veja o Log" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="ancora" prefHeight="230.0" prefWidth="551.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="loki.FXMLDocumentController">
+    <children>
+      <TextField id="mes" fx:id="ano_id" layoutX="16.0" layoutY="67.0" prefHeight="31.0" prefWidth="43.0" promptText="2018" text="0000" />
+      <TextField id="diretorio" fx:id="diretorio_id" layoutX="15.0" layoutY="124.0" prefHeight="25.0" prefWidth="521.0" />
+      <Button id="carregar" fx:id="carregar_id" layoutX="23.0" layoutY="193.0" mnemonicParsing="false" onAction="#handleButtonAction" text="Processar" />
+      <Label layoutX="13.0" layoutY="26.0" text="Data de Integração" />
+      <Label layoutX="12.0" layoutY="102.0" text="Diretório:" />
+      <TextField fx:id="mes_id" layoutX="85.0" layoutY="67.0" prefHeight="31.0" prefWidth="30.0" promptText="01" text="00" />
+      <Label layoutX="74.0" layoutY="71.0" text="/" />
+      <Label layoutX="27.0" layoutY="48.0" text="Ano" />
+      <Label layoutX="88.0" layoutY="49.0" text="Mês" />
+      <ProgressBar fx:id="progresso" layoutX="14.0" layoutY="161.0" prefHeight="18.0" prefWidth="521.0" progress="0.0" />
+      <Button fx:id="btn_novo_p" layoutX="114.0" layoutY="193.0" mnemonicParsing="false" text="Recarregar" />
+    </children>
+</AnchorPane>
